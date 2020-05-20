@@ -1,2 +1,4 @@
 # password-generator-manager
 This is a WinForms application that uses a local database manage a user's passwords. The user can save their own custom passwords or use a random password generator. The user can also edit or delete their saved passwords.
+
+This project uses the Dapper package to make sending SQL queries simple. The local database is a Microsoft Access file named: "PasswordDB.accdb". It must be located in the '~\PasswordManager\bin\Debug' directory. You must have the "Access Database Engine (32-bit)" installed before the app can utilize the database. Here: https://www.microsoft.com/en-us/download/details.aspx?id=13255
